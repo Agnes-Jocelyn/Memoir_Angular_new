@@ -1,0 +1,72 @@
+
+<!-- <router-outlet></router-outlet> -->
+
+
+
+<div class="container main">
+
+  <div class="background">
+    <div class="nav-upper">
+      <h2>
+        Memoir
+      </h2>
+      <img
+        src="https://cdn.iconscout.com/icon/free/png-512/avatar-372-456324.png"
+        class="profile"
+        alt=""
+      />
+      <h3>{{name}}</h3>
+    </div>
+    <div class="nav-bottom">
+      <ul>
+        <li>
+          <a routerLink="/home/posts"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+          routerLink="/home/yourPost"
+            >Your Post</a
+          >
+        </li>
+        <li>
+          <a href="" aria-disabled="true">Edit Profile</a>
+        </li>
+        <li>
+          <a routerLink="/" (click)="logout()"
+            >
+            Logout</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div>
+    <div class="search">
+      <input type="text" placeholder="Search " />
+      <button>
+        Search
+      </button>
+    </div>
+    <form (ngSubmit)="createPost()"  #addPost="ngForm">
+      <div class="post">
+        <textarea
+        name="description"
+          type="text"
+          class="post-field"
+          ngModel
+          placeholder="Type Something..."
+        ></textarea>
+        <button type="submit">
+          Post
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <div class="posts">
+    <router-outlet ></router-outlet>
+  </div>
+</div>

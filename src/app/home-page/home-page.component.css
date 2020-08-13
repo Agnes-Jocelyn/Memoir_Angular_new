@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+.posts {
+    width: 100%;
+    float: right;
+}
+
+.background{
+    width: 274px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    display: block;
+    background: #35a8b1;
+    position: fixed;
+}
+
+h2{
+    font-family: 'Parisienne', cursive;
+    color: white;
+    font-size: 40px;    
+}
+
+h3{
+    color: white;
+    font-size: 20px;
+}
+
+h2,h3{
+    text-align: center;
+}
+
+.nav-bottom{
+    position: absolute;
+    width: 274px;
+    height: 58%;
+    left: 0px;
+    top: 300px; 
+    background: #51b6bd;
+}
+
+.nav-bottom ul{
+    list-style: none;
+    
+}
+
+.nav-bottom li{
+    padding-bottom: 15%;
+}
+
+.nav-bottom a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.material-icons{
+    padding-right: 5%;
+    font-size: 25px;
+}
+
+.nav-bottom a:hover{
+    color: #005B61;
+    text-decoration: none;
+}
+
+.profile{
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.icon-log{
+    width: 20px;
+    height: 20px;
+}
+
+.background{
+    width: 274px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    display: block;
+    background: #35a8b1;
+    position: fixed;
+}
+
+h2{
+    font-family: 'Parisienne', cursive;
+    color: white;
+    font-size: 40px;    
+}
+
+h3{
+    color: white;
+    font-size: 20px;
+}
+
+h2,h3{
+    text-align: center;
+}
+
+.nav-bottom{
+    position: absolute;
+    width: 274px;
+    height: 58%;
+    left: 0px;
+    top: 300px; 
+    background: #51b6bd;
+}
+
+.nav-bottom ul{
+    list-style: none;
+    
+}
+
+.nav-bottom li{
+    padding-bottom: 15%;
+}
+
+.nav-bottom a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.material-icons{
+    padding-right: 5%;
+    font-size: 25px;
+}
+
+.nav-bottom a:hover{
+    color: #005B61;
+    text-decoration: none;
+}
+
+.profile{
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.icon-log{
+    width: 20px;
+    height: 20px;
+}
+
+.main{
+    position: absolute;
+    width: 878px;
+    height: auto;
+    left: 274px;
+    top: 0px;
+
+    background: #FFFFFF;
+}
+
+.search input{
+    border: 3px solid #38C2CB;
+    -webkit-border-radius:50px;
+    border-radius: 50px;
+    position: absolute;
+    width: 400px;
+    height: 30px;
+    left: 60px;
+    padding-left: 20px;
+    top: 20px;
+}
+
+.search button{
+    position: absolute;
+    left: 495px;
+    top: 20px;
+    width: 100px;
+    height: 38px;
+    border: 3px solid #38C2CB;
+    background-color: white;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.search button,input{
+    outline: none;
+}
+
+.search button:hover{
+    color: white;
+    border: 3px solid #38C2CB;
+    background-color: #38C2CB;
+    border-radius: 50px;
+}
+
+.post-field{
+    position: absolute;
+    width: 900px;
+    height: 100px;
+    left: 60px;
+    top: 90px;
+    resize: vertical;
+    border: 3px solid #38C2CB;
+    background-color: #ffffff;
+    border-radius: 20px;
+    outline: none;
+    padding: 12px 0px 0px 10px;
+}
+
+.post button{
+    position: absolute;
+    left: 800px;
+    top: 220px;
+    width: 180px;
+    height: 38px;
+    border: 3px solid #38C2CB;
+    background-color: white;
+    border-radius: 50px;
+    transition: 0.3s;
+    outline: none;
+}
+.post button:hover{
+    color: white;
+    border: 3px solid #38C2CB;
+    background-color: #38C2CB;
+    border-radius: 50px;
+}
+
+
+.card{
+    position: relative;
+    width: 880px;
+    height: auto;
+    border: 3px solid #38C2CB;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    left: 20px;
+    top: 280px;
+    margin-bottom: 2%;
+}
+
+.image-post{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    object-fit: cover;
+}
+
+.example-header-image{
+    width: 40px;
+    height: 40px;
+}

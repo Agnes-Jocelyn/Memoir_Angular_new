@@ -1,0 +1,54 @@
+<mat-spinner *ngIf="isLoading"></mat-spinner>
+<div class="login">
+    <div class="login-left">
+      <h1>Memoir</h1>
+    </div>
+    <div class="login-right">
+      <h3>Login</h3>
+      <form [formGroup]="loginForm" (ngSubmit)="login()">
+  
+        <div class="email">
+          <label>Email</label>
+          <br />
+          <input 
+          type="email" 
+          formControlName="email"
+           /> 
+        </div>
+  
+        <div class="password">
+          <label
+            >Password</label
+          >
+          <br />
+          <input
+            type="password"
+            [type]="hide ? 'password' : 'text'"
+            formControlName="password"
+          />
+        </div>
+  
+  
+        <div class="show-pass">
+          <input type="checkbox" class="check" (click)="hide = !hide" />
+          <span>Show Password</span>
+        </div>
+  
+        <div class="login-link">
+          <a routerLink="/register">Don't Have Account ? Make One Now</a>
+          <a href="">Forget Password</a>
+          <button
+            routerLink=""
+            class="login"
+            type="submit"
+   
+          >
+            Login
+          </button>
+        </div>
+  
+      </form>
+    </div>
+  </div>
+
+  

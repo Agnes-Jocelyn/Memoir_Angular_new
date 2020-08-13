@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+.background{
+    width: 274px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    display: block;
+    background: #35a8b1;
+    position: fixed;
+}
+
+h2{
+    font-family: 'Parisienne', cursive;
+    color: white;
+    font-size: 40px;    
+}
+
+h3{
+    color: white;
+    font-size: 20px;
+}
+
+h2,h3{
+    text-align: center;
+}
+
+.nav-bottom{
+    position: absolute;
+    width: 274px;
+    height: 58%;
+    left: 0px;
+    top: 300px; 
+    background: #51b6bd;
+}
+
+.nav-bottom ul{
+    list-style: none;
+    
+}
+
+.nav-bottom li{
+    padding-bottom: 15%;
+}
+
+.nav-bottom a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.material-icons{
+    padding-right: 5%;
+    font-size: 25px;
+}
+
+.nav-bottom a:hover{
+    color: #005B61;
+    text-decoration: none;
+}
+
+.profile{
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.icon-log{
+    width: 20px;
+    height: 20px;
+}

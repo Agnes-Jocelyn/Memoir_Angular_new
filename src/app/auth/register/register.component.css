@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+.register-left{
+    position: absolute;
+    width: 750px;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+}
+
+.register-left h1{
+    font-size: 144px;
+    line-height: 300px; 
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    color: #027780;
+}
+
+.register-right h3{
+    font-size: 40px;
+}
+
+.register-right{
+    display: block;
+    position: absolute;
+    width: 606px;
+    height: 625px;
+    left: 760px;
+    top: 0px;
+
+background: #35a8b1;
+}
+
+.register-right h3{
+    text-align: center;
+    color: white;
+}
+
+
+.username{
+    font-size: 20px;
+    color: white;
+    margin: 8% 0px 0px 15%;
+}
+
+.username input{
+    outline: none;
+    position: absolute;
+    width: 370px;
+    height: 25px;
+    left: 90px;
+    right: auto;
+    top: 166px;
+    padding-left:15px;
+    margin-top: 1px;
+    border-radius: 26px;
+    background: #ffffff;
+    border: none;
+}
+
+
+.email{
+    font-size: 20px;
+    color: white;
+    margin: 8% 0px 0px 15%;
+}
+
+.email input{
+    outline: none;
+    position: absolute;
+    width: 370px;
+    height: 25px;
+    left: 90px;
+    right: auto;
+    top: 234px;
+    padding-left:15px;
+    margin-top: 1px;
+    border-radius: 26px;
+    background: #ffffff;
+    border: none;
+}
+
+.password{
+    font-size: 20px;
+    color: white;
+    margin: 8% 0px 0px 15%;
+}
+
+.password input{
+    outline: none;
+    position: absolute;
+    width: 370px;
+    height: 25px;
+    left: 90px;
+    right: auto;
+    top: 310px;
+    padding-left:15px;
+    margin-top: 1px;
+    border-radius: 26px;
+    background: #ffffff;
+    border: none;
+}
+
+ .login-link button{
+    border: solid 4px #027780;
+    border-radius: 20px;
+    width: 300px;
+    outline:none;
+    font-size: 20px;
+    height:45px;
+    margin:15% 0% 0% 23%;
+    transition: 0.5s;
+    cursor: pointer;
+ }
+
+ .login-link button:hover{
+    border: solid 4px #027780;
+    background-color:#027780 ;
+    color: white;
+ }
+
+.confirm-password{
+    font-size: 20px;
+    color: white;
+    margin: 8% 0px 0px 15%;
+}
+
+.confirm-password input{
+    outline: none;
+    position: absolute;
+    width: 370px;
+    height: 25px;
+    left: 90px;
+    right: auto;
+    top: 380px;
+    padding-left:15px;
+    margin-top: 1px;
+    border-radius: 26px;
+    background: #ffffff;
+    border: none;
+}

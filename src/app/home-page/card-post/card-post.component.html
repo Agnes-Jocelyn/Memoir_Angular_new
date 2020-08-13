@@ -1,0 +1,17 @@
+<div class="container card" *ngFor="let post of posts">
+    <mat-card-header class="test">
+      <img
+          src="https://cdn.iconscout.com/icon/free/png-512/avatar-372-456324.png"
+          alt=""
+          mat-card-avatar
+          class="example-header-image"
+        />
+      <span><mat-card-title class="testss">{{post.name}}</mat-card-title></span>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+       {{post.description}}
+      </p>
+      <img mat-card-image src="" class="image-post">
+    </mat-card-content>      
+</div>

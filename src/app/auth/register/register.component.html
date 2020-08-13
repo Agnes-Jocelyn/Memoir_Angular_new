@@ -1,0 +1,41 @@
+<div class="registe">
+  <div class="register-left">
+    <h1>Memoir</h1>
+  </div>
+  <div class="register-right">
+    <h3>Register</h3>
+    <form [formGroup]="registerForm" (ngSubmit)="register()">
+      <div class="username form-group">
+        <label>Username</label>
+        <br />
+        <input type="text" formControlName="name" />
+      </div>
+
+      <div class="email form-group">
+        <label> Email</label>
+        <br />
+        <input type="email" formControlName="email" />
+      </div>
+      <div class="password form-group">
+        <label>Password</label>
+        <br />
+        <input type="password" formControlName="password" />
+      </div>
+      <div class="confirm-password form-group">
+        <label>Confirm Password</label>
+        <br />
+        <input type="password" formControlName="confirmPassword" />
+      </div>
+      <div class="login-link">
+        <button
+        routerLink=""
+          class="login form-group"
+          [disabled]="registerForm.invalid"
+          type="submit"
+        >
+          Register
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
