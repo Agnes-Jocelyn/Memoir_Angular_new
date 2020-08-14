@@ -17,9 +17,7 @@ export class DataService {
           (res) => {
             return resolve(res);
           },
-          (error) => {
-            return reject(error);
-          }
+          
         );
     });
   }
@@ -32,9 +30,7 @@ export class DataService {
           (res) => {
             return resolve(res);
           },
-          (error) => {
-            return reject(error);
-          }
+          
         );
     });
   }
@@ -49,9 +45,7 @@ export class DataService {
           (res) => {
             return resolve(res);
           },
-          (error) => {
-            return reject(error);
-          }
+          
         );
     });
   }

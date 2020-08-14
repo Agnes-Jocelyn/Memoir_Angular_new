@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { DataService } from '../shared/data.service';
-import {MatDialog} from '@angular/material/dialog';
+
 
 @Component({
   selector: 'app-home-page',
@@ -14,7 +14,7 @@ export class HomePageComponent implements OnInit {
   name;
   @ViewChild("addPost") addPost: NgForm
 
-  constructor(private dataService: DataService,public dialog: MatDialog  ) { }
+  constructor(private dataService: DataService ) { }
  
   ngOnInit(): void {
     this.getPosts()
