@@ -14,7 +14,7 @@ export class AuthService {
   constructor(private http : Http) { }
   
   async createUser (userData){
-    console.log('USER DATA: ',userData)
+
 
     const data = {
       name: userData.name,
@@ -22,8 +22,6 @@ export class AuthService {
       password: userData.password,
       confirmPassword: userData.confirmPassword
     }
-
-    console.log('DATA: ',data);
     
     this.http.post(`${this.url}/users/register`, userData).subscribe(
       res => { 
@@ -40,12 +38,10 @@ export class AuthService {
     return new Promise((resolve, rejects) => {
       this.http.post(`${this.url}/users/login`, userData).subscribe(
         res => {
-         console.log('hereeeeeeee');
          this.source = res         
          this.user = JSON.parse(this.source._body)
         localStorage.setItem('token', this.user.token)
         localStorage.setItem('id', this.user.id)
-         console.log('USER DATA::::',this.user);
          
          return resolve (this.user);
        },
